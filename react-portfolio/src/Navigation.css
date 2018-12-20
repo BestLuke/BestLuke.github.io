@@ -23,3 +23,9 @@ nav ul li a {
     text-decoration: none;
     color: #fff;
 }
+
+.fixed-nav {
+    position: fixed;
+    top: 0;
+    width: 97%;
+}
