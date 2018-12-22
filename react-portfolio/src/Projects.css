@@ -1,0 +1,47 @@
+.projects {
+    text-align: center;
+    background-color: #fff;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.projects h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: rgb(236,184,7);
+    margin: 0;
+    padding: 0;
+}
+
+.projects h2 {
+    font-size: 48px;
+    color: black;
+    margin-bottom: 48px;
+    margin-top: 0;
+}
+
+.projects > .row {
+    display: flex;
+    justify-content: center;
+    -webkit-tap-highlight-color: blue;
+}
+
+.projects > .row span {
+    box-sizing: border-box;
+    text-align: left;
+    height: 371px;
+    width: 555px;
+    background-color: aquamarine;
+}
+
+.projects > .row span h1 {
+    margin-bottom: 8px;
+    margin-block-end: 8px;
+    font-weight: 700px;
+    font-size: 12px;
+}
+
+.projects > .row span p {
+    font-weight: 300px;
+    font-size: 19;
+}

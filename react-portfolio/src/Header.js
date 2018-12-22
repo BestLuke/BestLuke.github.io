@@ -18,7 +18,7 @@ class Header extends Component {
                 <p>
                     A catalouge of works by the amazing Luke Fraser
                 </p>
-                <a href='#button'>
+                <a href='https://github.com/BestLuke'>
                     {this.props.Button}
                 </a>
             </header>

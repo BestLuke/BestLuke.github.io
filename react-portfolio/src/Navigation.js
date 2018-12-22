@@ -35,7 +35,7 @@ class Navigation extends Component {
       }
       window.addEventListener('scroll', handleScroll);
 
-      const section=['Home', 'About', 'services', 'Portfolio', 'Contact'];
+      const section=['Home', 'About', 'services', 'Projects', 'Contact'];
       const navLinks = section.map( section => {
         return (
             <li><a href={'#' + section}>{section}</a></li>

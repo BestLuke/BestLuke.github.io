@@ -5,6 +5,7 @@ import './index.css';
 import Navigation from './Navigation';
 import Header from './Header';
 import Services from './Services';
+import Projects from './Projects';
 import * as serviceWorker from './serviceWorker';
 
 class App extends Component {
@@ -13,9 +14,11 @@ class App extends Component {
             <div>
                 <Navigation LogoTitle="Luke Fraser" />
 
-                <Header Title="Luke Fraser" Button="Find Out More"/>
+                <Header Title="Luke Fraser" Button="Github"/>
 
                 <Services />
+
+                <Projects />
             </div>
         );
     }
