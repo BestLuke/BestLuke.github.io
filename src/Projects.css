@@ -31,7 +31,14 @@
     text-align: left;
     height: 371px;
     width: 555px;
-    background-color: aquamarine;
+    background: aquamarine;
+}
+
+.projects > .row span:hover {
+    height: 350px;
+    width: 530px;
+    background-color: red;
+    margin: 20px;
 }
 
 .projects > .row span h1 {
