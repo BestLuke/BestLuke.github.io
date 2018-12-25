@@ -10,20 +10,16 @@ class Projects extends Component {
 
                 <div className='row'>
                     <span className="one" href="https://buy-buy-business.herokuapp.com/businesses?direction=asc&sort=business_name">
-                        <h1>Example 1</h1>
-                        <p>This is example 1</p>
+                        <h1>Buy Buy Business</h1>
+                        <p>A Ruby on Rails app that was a solo project for coding bootcamp</p>
                     </span>
-                    <span className="two">
-                        <h1>Example 2</h1>
-                        <p>This is example 2</p>
+                    <span className="two" href="https://gitlab.com/LFraser/WonkyWarriors">
+                        <h1>Wonky Warriors</h1>
+                        <p>A Unity Game that was a group project for Game Design Degree</p>
                     </span>
-                    <span className="three">
-                        <h1>Example 3</h1>
-                        <p>This is example 3</p>
-                    </span>
-                    <span className="four">
-                        <h1>Example 4</h1>
-                        <p>This is example 4</p>
+                    <span className="three" href="https://github.com/BestLuke/bankappV2">
+                        <h1>Bank app</h1>
+                        <p>A personal terminal app experimenting with ruby during coding bootcamp</p>
                     </span>
                 </div>
             </div>
