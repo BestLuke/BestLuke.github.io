@@ -9,21 +9,19 @@ class Projects extends Component {
                 <h2>Projects</h2>
 
                 <div className='row'>
-                    <span className="1">
+                    <span className="one" href="https://buy-buy-business.herokuapp.com/businesses?direction=asc&sort=business_name">
                         <h1>Example 1</h1>
                         <p>This is example 1</p>
                     </span>
-                    <span className="2">
+                    <span className="two">
                         <h1>Example 2</h1>
                         <p>This is example 2</p>
                     </span>
-                </div>
-                <div className='row'>
-                    <span className="3">
+                    <span className="three">
                         <h1>Example 3</h1>
                         <p>This is example 3</p>
                     </span>
-                    <span className="4">
+                    <span className="four">
                         <h1>Example 4</h1>
                         <p>This is example 4</p>
                     </span>
