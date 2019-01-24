@@ -9,7 +9,7 @@ class Projects extends Component {
                 <h2>Projects</h2>
 
                 <div className='row'>
-                    <span className="one" href="https://buy-buy-business.herokuapp.com/businesses?direction=asc&sort=business_name">
+                    <span className="one" href="https://buy-buy-business.herokuapp.com/">
                         <h1>Buy Buy Business</h1>
                         <p>A Ruby on Rails app that was a solo project for coding bootcamp</p>
                     </span>

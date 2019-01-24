@@ -5,8 +5,8 @@ class Services extends Component {
 render() {
     return (
         <div className="services">
-            <h3>Services</h3>
-            <h2>What We Offer</h2>
+            <h3>Languages</h3>
+            <h2>What I Know</h2>
             <div className="row">
                 <Icons myIcon={iconObj[0].icon} myTitle={iconObj[0].title} myDescription={iconObj[0].description} />
                 <Icons myIcon={iconObj[1].icon} myTitle={iconObj[1].title} myDescription={iconObj[1].description} />
@@ -20,24 +20,24 @@ render() {
 
 const iconObj = [
     {
-        icon: <i class="fas fa-mobile-alt"></i>,
-        title: 'Responsive',
-        description: 'Look great on my screen size!'
+        icon: <i class="devicon-ruby-plain colored"></i>,
+        title: 'Ruby',
+        description: 'Learnt in coding bootcamp utilising in the Rails Framework.'
     },
     {
         icon: <i class="fas fa-pencil-alt"></i>,
-        title: 'Redesigned',
-        description: 'Freshly redisigned for bootstrap 4'
+        title: 'Elixir',
+        description: 'Learnt for my internship turned contract with Vamp.'
     },
     {
-        icon: <i class="fas fa-thumbs-up"></i>,
-        title: 'Favourited',
-        description: 'Millions of users <i class="fas fa-heart"></i> Start using Bootstrap'
+        icon: <i class="devicon-javascript-plain colored"></i>,
+        title: 'Javascript',
+        description: 'Learnt in coding bootcamo utilising the MERN development stack.'
     },
     {
-        icon: <i class="fas fa-brain"></i>,
-        title: 'Question',
-        description: 'Pick my brain'
+        icon: <i class="devicon-csharp-plain colored"></i>,
+        title: 'C#',
+        description: 'Learnt in Bachelor of Game development and only know in regards to game dev at this time.'
     }
 ]
 
