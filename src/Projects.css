@@ -60,18 +60,19 @@
 .projects > .row > .one:hover {
     background: 
     linear-gradient(
-      rgba(0, 0, 255, 0.45), 
-      rgba(0, 0, 255, 0.45)
+      rgb(255, 255, 255), 
+      rgb(255, 255, 255)
     ),
     url('./img/bbb.PNG');
     background-size: 350px 530px;
+    border: 2px, black;
 }
 
 .projects > .row > .two:hover {
     background: 
     linear-gradient(
-      rgba(0, 0, 255, 0.45), 
-      rgba(0, 0, 255, 0.45)
+      rgb(255, 255, 255), 
+      rgb(255, 255, 255)
     ),
     url('./img/ww.jpeg');
     background-size: 350px 530px;
@@ -80,8 +81,8 @@
 .projects > .row > .three:hover {
     background: 
     linear-gradient(
-      rgba(0, 0, 255, 0.45), 
-      rgba(0, 0, 255, 0.45)
+      rgb(255, 255, 255), 
+      rgb(255, 255, 255)
     ),
     url('./img/bank.PNG');
     background-size: 350px 530px;
@@ -93,10 +94,52 @@
     margin-block-end: 8px;
     font-weight: 700px;
     font-size: 12px;
+    visibility: hidden;
 }
 
 .projects > .row p {
     font-weight: 300px;
     font-size: 19;
     padding-left: 20px;
+    visibility: hidden;
 }
+
+.projects > .row > .one > .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.projects > .row > .one:hover > .button {
+    background-color: green;
+}
+
+.projects > .row > .one:hover p {
+    visibility: visible;
+}
+
+.projects > .row > .two:hover p {
+    visibility: visible;
+}
+
+.projects > .row > .three:hover p {
+    visibility: visible;
+}
+
+.projects > .row > .one:hover h1 {
+    visibility: visible;
+}
+
+.projects > .row > .two:hover h1 {
+    visibility: visible;
+}
+
+.projects > .row > .three:hover h1 {
+    visibility: visible;
+}
+
+

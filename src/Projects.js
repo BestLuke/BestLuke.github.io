@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './Projects.css';
+import {Grid} from '@material-ui/core'
+import CustomCard from './cards'
 
 class Projects extends Component {
     render() {
@@ -8,20 +10,33 @@ class Projects extends Component {
                 <h3>Luke's Amazing</h3>
                 <h2>Projects</h2>
 
-                <div className='row'>
-                    <span className="one" href="https://buy-buy-business.herokuapp.com/">
-                        <h1>Buy Buy Business</h1>
-                        <p>A Ruby on Rails app that was a solo project for coding bootcamp</p>
-                    </span>
-                    <span className="two" href="https://gitlab.com/LFraser/WonkyWarriors">
-                        <h1>Wonky Warriors</h1>
-                        <p>A Unity Game that was a group project for Game Design Degree</p>
-                    </span>
-                    <span className="three" href="https://github.com/BestLuke/bankappV2">
-                        <h1>Bank app</h1>
-                        <p>A personal terminal app experimenting with ruby during coding bootcamp</p>
-                    </span>
-                </div>
+                <Grid container>
+                    <Grid item xs={12} md={4}>
+                        <CustomCard 
+                            image={require ('./img/bbb.PNG')} 
+                            title={'Buy Buy Business'} 
+                            contentBody={'A Ruby on Rails app that was a solo project for coding bootcamp'}
+                            githubLink={'https://github.com/BestLuke/BuyBuyBusiness'}
+                            webLink={'https://buy-buy-business.herokuapp.com/'}
+                        />
+                    </Grid>
+                    <Grid item xs={12} md={4}>
+                        <CustomCard
+                            image={require ('./img/ww.jpeg')}
+                            title={'Wonky Warriors'}
+                            contentBody={'A Unity Game that was a group project for Game Design Degree'}
+                            githubLink={'https://gitlab.com/LFraser/WonkyWarriors'}
+                        />
+                    </Grid>
+                    <Grid item xs={12} md={4}>
+                        <CustomCard
+                            image={require ('./img/bank.PNG')}
+                            title={'Bank App'}
+                            contentBody={'A personal terminal app experimenting with ruby which I made during my coding bootcamp'}
+                            githubLink={'https://github.com/BestLuke/bankappV2'}
+                        />
+                    </Grid>
+                </Grid>
             </div>
         );
     }
